@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boolando-primary: #ff6900;
+
+}
+
+header{
+    background-color: var(--boolando-primary);
+    padding: 10px;
+    
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 3px;
+    }
+
+    i{
+        color: white;
+        padding: 3px;
+    }
+
+    .gender{
+        font-weight: 500;
+    }
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
