@@ -36,9 +36,29 @@ header{
     margin: auto;
 }
 
+
 .d-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card{
+    display: flex;
+    padding: 40px;
+    position: relative;
+
+    img{
+        padding: 10px;
+    }
+
+    i{
+        position: absolute;
+        top: 10%;
+        left: 32%;
+        background-color: white;
+        padding: 5px;
+    }
+
 }
 
