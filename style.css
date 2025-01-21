@@ -51,14 +51,17 @@ header{
     img{
         padding: 10px;
     }
-
-    i{
-        position: absolute;
-        top: 10%;
-        left: 32%;
-        background-color: white;
-        padding: 5px;
+    
+    .item{
+        position: relative;
     }
 
+    .fa-heart{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        background-color: white;
+        padding: 10px;
+    }
 }
 
