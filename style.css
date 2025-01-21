@@ -46,9 +46,9 @@ header{
 .card{
     display: flex;
     padding: 40px;
+    gap: 15px;
 
     img{
-        padding: 10px;
         max-width: 100%;
     }
     
@@ -59,35 +59,43 @@ header{
 
     .fa-heart{
         position: absolute;
-        top: 20px;
-        right: 10px;
+        top: 10px;
+        right: 0;
         background-color: white;
         padding: 10px;
     }
 
     .discount{
-        left: 10px;
+        left: 0;
         background-color: red;
         color: white;
     }
 
     .sustainability{
-        left: 60px;
+        left: 50px;
         background-color: green;
         color: white;
     }
 
     .last-sustainability{
-        left: 10px;
+        left: 0;
     }
 }
 
 /* Utilities */
 .p-f{
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     color: white;
     padding: 3px 10px;
     font-size: 11px;
 }
 
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.line{
+    text-decoration: line-through;
+}
