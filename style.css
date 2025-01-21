@@ -28,6 +28,12 @@ header{
     .gender{
         font-weight: 600;
     }
+
+    .d-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
 }
 
@@ -37,11 +43,7 @@ header{
 }
 
 
-.d-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .card{
     display: flex;
@@ -79,6 +81,42 @@ header{
 
     .last-sustainability{
         left: 0;
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    .d-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info{
+
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 0 8px 0 0;
+            font-size: 12px;
+        }
+
+        h4{
+            padding-bottom: 5px;
+        }
+        
+    }
+
+    .social{
+        h5{
+            padding-bottom: 10px;
+        }
+
+        i{
+            padding: 0 5px 0 0;
+        }
     }
 }
 
