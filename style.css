@@ -26,7 +26,7 @@ header{
     }
 
     .gender{
-        font-weight: 500;
+        font-weight: 600;
     }
     
 }
@@ -46,14 +46,15 @@ header{
 .card{
     display: flex;
     padding: 40px;
-    position: relative;
 
     img{
         padding: 10px;
+        max-width: 100%;
     }
     
     .item{
         position: relative;
+        width: 350px;
     }
 
     .fa-heart{
@@ -63,5 +64,30 @@ header{
         background-color: white;
         padding: 10px;
     }
+
+    .discount{
+        left: 10px;
+        background-color: red;
+        color: white;
+    }
+
+    .sustainability{
+        left: 60px;
+        background-color: green;
+        color: white;
+    }
+
+    .last-sustainability{
+        left: 10px;
+    }
+}
+
+/* Utilities */
+.p-f{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    padding: 3px 10px;
+    font-size: 11px;
 }
 
